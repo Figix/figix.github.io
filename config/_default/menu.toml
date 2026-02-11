@@ -10,7 +10,7 @@
 [[social]]
     identifier = "github"
     name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    url        = "https://github.com/Figix"
 
     [social.params]
         icon = "brand-github"
@@ -18,7 +18,39 @@
 [[social]]
     identifier = "twitter"
     name       = "Twitter"
-    url        = "https://twitter.com"
+    url        = "https://x.com/HJ78881557"
 
     [social.params]
         icon = "brand-twitter"
+
+[[social]]
+    identifier = "artstation"
+    name       = "Artstation"
+    url        = "https://www.artstation.com/figix"
+
+    [social.params]
+        icon = "brand-azure"
+
+[[social]]
+    identifier = "youtube"
+    name       = "Youtube"
+    url        = "https://www.youtube.com/@bipedalsnail"
+
+    [social.params]
+        icon = "brand-youtube"
+
+[[social]]
+    identifier = "linkedin"
+    name       = "Linkedin"
+    url        = "https://www.linkedin.com/in/hyeonjinlee-ta"
+
+    [social.params]
+        icon = "brand-linkedin"
+
+[[social]]
+    identifier = "instagram"
+    name       = "Instagram"
+    url        = "https://www.instagram.com/figix2025/"
+
+    [social.params]
+        icon = "brand-instagram"

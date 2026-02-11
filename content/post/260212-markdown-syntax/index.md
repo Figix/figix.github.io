@@ -1,6 +1,6 @@
 ---
-title: Markdown Syntax Guide
-date: 2023-09-07
+title: 마크다운 문법 가이드
+date: 2026-02-12 08:22:00+0900
 description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
 tags: 
     - markdown
@@ -8,8 +8,7 @@ tags:
     - html
     - themes
 categories:
-    - themes
-    - syntax
+    - hugo
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.

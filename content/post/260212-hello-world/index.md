@@ -38,3 +38,7 @@ hugo server -D
 #새글 생성 (post)
 hugo new post/파일명_날짜.md
 ```
+
+![Image 1](image.png) ![Image 2](image2.png)
+깃허브에서 배포한 것과 클라우드플레어에서 배포한 것과 속도 차이를 비교한 사진입니다.
+클라우드 플레어가 좀 더 빠르네요.

@@ -6,6 +6,8 @@ comments: true
 draft: false
 categories:
     - Git
+tags:
+    - 2026
 build:
     list: always    # Change to "never" to hide the page from the list
 ---

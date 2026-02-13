@@ -6,6 +6,8 @@ comments: true
 draft: false
 categories:
     - Git
+tags:
+    - 2026
 build:
     list: always    # Change to "never" to hide the page from the list
 ---
@@ -49,12 +51,12 @@ Bash를 쓰기 위해서는 최소한 아래의 명령어에 익숙해지셔야�
 
 그리고 깃주소를 가져올 때, Ctrl+v가 잘안될 것입니다.  
 Ctrl+Insert로 붙여넣기를 해주세요. 
-![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fc4wPJy%2FdJMcahwzKdC%2FAAAAAAAAAAAAAAAAAAAAACIRcmy0u46v2XOvVMqdad7opchSmJhjLXC4XA3cfwyw%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DMLNMNnDg%252BKePm%252FPwnjiHuNsZvkk%253D)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fc4wPJy%2FdJMcahwzKdC%2FAAAAAAAAAAAAAAAAAAAAACIRcmy0u46v2XOvVMqdad7opchSmJhjLXC4XA3cfwyw%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DMLNMNnDg%252BKePm%252FPwnjiHuNsZvkk%253D)  
 야무지게 clone한 모습입니다.
 
 아래에서 변경사항을 추가하겠습니다.
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FnAWgp%2FdJMcagYH5cd%2FAAAAAAAAAAAAAAAAAAAAAN2Nxi1K2Lr61Vt89jjKIDAzx4wRqRVTXKoAHEUO3tmN%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DP0W%252BjvRfbI1G5G3rHMBRe8BWsis%253D)
-![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fbcn4a8%2FdJMcad1WmXE%2FAAAAAAAAAAAAAAAAAAAAAMZkcdPrdCrkeKMtVbjI6llvg43KoeKbp7pIf6cduZaw%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DJj8hIatTuaQojbD5uN8hMGA2bfY%253D)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fbcn4a8%2FdJMcad1WmXE%2FAAAAAAAAAAAAAAAAAAAAAMZkcdPrdCrkeKMtVbjI6llvg43KoeKbp7pIf6cduZaw%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DJj8hIatTuaQojbD5uN8hMGA2bfY%253D)  
 git status - 현재 수정된 사항들 리스트업  
 git add 파일명 - 해당 파일을 Stage에 올리기  
 git commit - Stage에 올릴 것들을 확정하고, 무엇을 올리는지 설명하는 구간  

@@ -8,7 +8,6 @@ categories:
     - Hugo
 tags:
     - stack
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 ### 오늘부터 Github 블로그를 시작
 최근에 티스토리에서 정책이 계속 바뀌는 상황이 일어났었습니다.  

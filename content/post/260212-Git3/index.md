@@ -70,14 +70,14 @@ i 키를 누르면
 → 입력 모드(Insert)를 종료합니다.  
 :wq 명령어를 입력합니다.  
 → Write(저장) Quit(종료) 커밋이 완료됩니다.  
-![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FeIaTXN%2FdJMcahwzKCV%2FAAAAAAAAAAAAAAAAAAAAACr_ZtD47SwemEcBzZAXGTC5Vkk-Z-LhtnI4vtofyEDo%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3D8UpKWRrxW1B7sfZju%252BhwhzQHaWU%253D)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FeIaTXN%2FdJMcahwzKCV%2FAAAAAAAAAAAAAAAAAAAAACr_ZtD47SwemEcBzZAXGTC5Vkk-Z-LhtnI4vtofyEDo%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3D8UpKWRrxW1B7sfZju%252BhwhzQHaWU%253D)  
 git status - 커밋이 정상적으로 잘 들어온 것을 확인  
 git push - 해당 내용을 원격 저장소에 올리기  
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FnxPcS%2FdJMcacvgYml%2FAAAAAAAAAAAAAAAAAAAAANwqYYYRpX3uUGsQemoPsVkjuHN2QItIwMfXsjzUVa5z%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DQO2G67Dl0SkNuTZb%252FU01U3UjF%252B8%253D)
 Png와 README 수정된 내용들이 잘 올라왔습니다.  
   
-  
+## Git Fork[GUI]
 
 그러면 이제 의도적으로 Conflict(충돌)가 나오게 한번 수정해볼까요?  
 하지만, git bash로 일일히 타이핑해가며 작업하는건 너무 불편합니다.  
@@ -88,14 +88,14 @@ File - Open Repository[Ctrl+O]
 .git이 나오는 폴더 구간이 나오는 폴더에서 폴더 선택을 눌러주시면 됩니다.  
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fb9VyAX%2FdJMcabJTLxt%2FAAAAAAAAAAAAAAAAAAAAACyEj6Vy_lmW-qk0iy-4WDosnKar7JFchbZwqRNPnPoC%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DObBfh5vwO%252FqzPSLlRTKEEwWjYzk%253D)
-여기서 핵심적인 개념들을 다루겠습니다.  
+### Git Fork만의 중요 개념들
 | 심볼 | 역할 |
 |:---:|:---:|
 | Git 고양이 마크 | 해당 브랜치가 원격 레파지토리에서의 최신화된 영역 |
 | ✅ | 현재 내 시점 |
 | 상단의 밑줄 | 현재 브랜치의 헤드명(위치) |
 
-아래의 방식을 활용하면 브랜치를 새로 나눌 수 있습니다.
+### Git Fork에서 브랜치 나누기
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FoEvoC%2FdJMcai91wQG%2FAAAAAAAAAAAAAAAAAAAAAGwiEe4JD-fEPUR8XqULuSHkwTSvSMKUlW6vYsGrptgp%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DjGWkuQZ0vXfDW8ZNLj6%252BA%252FBq%252FVs%253D)
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FVmfOV%2FdJMcadVbe9Y%2FAAAAAAAAAAAAAAAAAAAAAK3_REhKONJqDGF9OgbhXQqJROVAndg8eaOsv1REhibM%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DEmeBE1nEGSr8gpNkXg0nISZEE7w%253D)
 | 체크박스 ☐ | 브랜치만 생성하기 |
@@ -108,12 +108,14 @@ Readme 수정이라는 로그에서 2개를 개설했습니다.
 해당 로그를 기준으로 userA, userB, Main이라는 브랜치가 생성되었고,  
 userB에 ✅가 있으므로 현재 브랜치 명은 userB이며, Readme 수정이 현 위치입니다.
 
+### Git Fork CheckOut
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FVAa1q%2FdJMcafZM7bQ%2FAAAAAAAAAAAAAAAAAAAAADg8oCgvPf8oYcERRcK3oAowcgSzLtyQALTyrgltUK6T%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DrYtPOOn2sdR2qhON845oiKgvWPE%253D)
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fwzb8P%2FdJMcafZM7bR%2FAAAAAAAAAAAAAAAAAAAAAE9QYvVIRmXfBflKemMgqZTOLgfmx73ipxKF8LUBsb5f%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3Dxv3Q9ooS110af26YGkypJqobBOs%253D)  
 일단 userA로 헤드를 바꾸고[Checkout], 수정작업을 먼저 진행해보겠습니다.  
 깃의 헤드를 바꿀려면 여러방법이 존재하는데, 위 두 그림의 방식으로 추천드립니다.  
 왼쪽 탭을 활용해 헤드를 바꾸는 방식은 최신 헤드로 이동하는 방식입니다.  
 
+### Git Fork Add, Commit, Push
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FpJ5mA%2FdJMcaa5gIJC%2FAAAAAAAAAAAAAAAAAAAAAOk7fa8faWZgOyZmM12OG1RmEkoIMzOuLfyjEEwGakbf%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DK0%252BlSfPZ0EELj57M7b2gvNwo2x4%253D)  
 현재 기존과 다른 피카츄 이미지를 2장을 넣고,  
 하나는 기존과 이름을 같게해서 파일의 수정사항을 만든 상황입니다.  
@@ -145,9 +147,11 @@ userA의 작업내역이 userB하고는 완전히 분리된 것을 확인했습�
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F2GZum%2FdJMcac23uvz%2FAAAAAAAAAAAAAAAAAAAAAOm_b3MeUIHqaVMbG8HgSw-QZ4fCquAiTKlKrrjPdfVD%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DgIiY8rnIcWjte7JPsXjSg411%252B1A%253D)  
 Pokémon_Pikachu_art.png 파일을 변경하고, Commit하고 Push하겠습니다.  
 
-그럼지금까지의 작업내역을 한번 정리하겠습니다.  
+그럼 지금까지의 작업내역을 한번 정리하겠습니다.  
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fcm7ulo%2FdJMcaajUmOb%2FAAAAAAAAAAAAAAAAAAAAAIQuCsxkVODjXeRKHSqu6J2cYltlbWROTMIipOIGy2BZ%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DUjIXjWG1oUBrTsnanvynXUKgtyo%253D)  
 현재 각 브랜치별로 서로 다른 피카츄 PNG파일들이 있는 모습입니다.  
+
+### Git Fork Merge
 이제 작업한 내역들을 main에 올리는 작업을 진행하겠습니다. 먼저 userA부터 넣겠습니다.  
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbodSmI%2FdJMcaac8F9Q%2FAAAAAAAAAAAAAAAAAAAAAIGxnTrD5iFwUSTWvMTa7z95bwgcpfR_Z8XnbbDMWY0c%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DzLI%252BZGd0ZwHgx0HxTsUi5rdGzhg%253D)  
 Merge는 현재 HEAD에 다른 브랜치의 작업내역을 끌어오는 행위를 말합니다.  
@@ -164,6 +168,7 @@ push한 후 모습으로 깃 고양이가 main 브랜치의 최신을 잘보여�
 main 브랜치가 userA와 파일구조가 같게 된 것을 확인했습니다.  
 자 이제 userB도 Main쪽으로 Merge해볼까요?  
 
+### Conflict?
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F16tFV%2FdJMcagLcnoT%2FAAAAAAAAAAAAAAAAAAAAAJ6qeo1UkNRoqQFv5BbLhokjnIefMb12RZH1Qh9taCHI%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DWufzrPq0fDqKre2W5yEj%252F%252Fa4Q%252Fw%253D)
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbFSvgm%2FdJMcad1WoIi%2FAAAAAAAAAAAAAAAAAAAAAORPkQB7tO4yvrq05tuhBCW3qjIQw7mgxD5Ahl4WYioS%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DBpUKnKVM5lYrxJ09ooC4BfvCpn8%253D)
 Conflict(충돌)가 생겼습니다. 왜 생겼을까요?  

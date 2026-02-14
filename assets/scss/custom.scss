@@ -1,10 +1,11 @@
 /*
     You can add your own custom styles here.
 */
+/*
 .video-portfoilo {
   position: relative;
   width: 49%;
-  padding-top: 27.5625%; /* 16:9 */
+  padding-top: 27.5625%; // 16:9 
   display: inline-block;
 }
 
@@ -15,3 +16,28 @@
   width: 100%;
   height: 100%;
 }
+*/
+.video-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+.video-portfolio {
+  width: 100%;                /* 모바일 기본 */
+  aspect-ratio: 16 / 9;
+}
+
+.video-portfolio iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* PC / 태블릿 이상 */
+@media (min-width: 768px) {
+  .video-portfolio {
+    width: 49%;
+  }
+}
+

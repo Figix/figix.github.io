@@ -5,13 +5,13 @@ date: 2026-02-14T09:30:45+09:00
 license: MIT
 comments: true
 draft: true
-build:
-    list: always    # Change to "never" to hide the page from the list
 categories:
     - Tools
 tags:
     - HTML
     - CSS
+build:
+    list: always    # Change to "never" to hide the page from the list
 ---
 
 공 튀기기 애니메이션 시각화 툴 사이트입니다.  

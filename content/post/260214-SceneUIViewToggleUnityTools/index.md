@@ -7,12 +7,12 @@ math:
 license: 
 comments: true
 draft: true
-build:
-    list: always    # Change to "never" to hide the page from the list
 categories:
     - Tools
 tags:
     - Unity
+build:
+    list: always    # Change to "never" to hide the page from the list
 ---
 Unity에서 Unreal처럼 SceneView의 보이는 UI에 대한 Toggle키를 만들었습니다.  
 

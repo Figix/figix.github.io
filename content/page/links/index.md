@@ -25,6 +25,14 @@ comments: false
 
   <div class="video-portfolio">
     <iframe
+      src="https://youtu.be/CVfCJUmbLQw?si=2aZq_9KwuQbLA6GI"
+      title="Chinese Calligraphy Animation Wukong[悟空] - UnrealVFX"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="video-portfolio">
+    <iframe
       src="https://www.youtube.com/embed/badlJ3Ej4NI?playsinline=1"
       title="UnrealVFX - Glacial Judgment"
       allowfullscreen>
